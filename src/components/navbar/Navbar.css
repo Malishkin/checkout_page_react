@@ -72,13 +72,6 @@
   display: none;
 }
 
-.grey-solid-bottom {
-  border: 1px solid #b3b3b3;
-  margin-top: 70px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
 .prefer-container {
   display: flex;
 

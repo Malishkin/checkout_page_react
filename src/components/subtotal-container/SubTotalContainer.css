@@ -78,6 +78,7 @@
     color: #000000;
     opacity: 1;
   }
+
   
   .borderBottom2 {
     border-bottom: 2px dashed #b3b3b3;
@@ -145,6 +146,21 @@
     margin-top: -30px;
   }
 
+  .grey-border-between {
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+  
+    border: 1px solid #b3b3b3;
+    display: none;
+  }
+  .grey-solid-bottom {
+    border: 1px solid #b3b3b3;
+    margin-top: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
   .bottomText {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;

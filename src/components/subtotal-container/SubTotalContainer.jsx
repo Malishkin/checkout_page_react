@@ -21,6 +21,8 @@ const SubTotalContainer = () => {
       <div className="borderBottom3"> </div>
       <div className="subtotal-price3">$37.00</div>
 
+      <div className="grey-solid-bottom"></div>
+
 
 
       <div className="bottomText">Note: The charge will appear on your card as CuraLife</div>
