@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,7 +11,7 @@
   height: 100%;
 
   opacity: 1;
-}
+} */
 
 .nav {
   width: 100%;
@@ -233,102 +233,20 @@
   opacity: 1;
 }
 
-.reasons-container {
-  width: 100%;
-  height: 102px;
-  background-color: #333333;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-}
 
-.three {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  font-size: 70px;
 
-  width: 41px;
-  height: 95px;
-  text-align: left;
-  letter-spacing: 0px;
-  color: #cda349;
-  opacity: 1;
-}
-.three-text {
-  font-family: 'Poppins', sans-serif;
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 1.2;
-  width: 291px;
-  height: 61px;
-  margin-top: 25px;
-  margin-left: 5px;
-  text-align: left;
-  letter-spacing: 0px;
-  opacity: 1;
-}
 
-#safe {
-  color: #cda349;
-}
 
-.footer-container {
-  width: 100%;
-  /* height: 425px; */
-  display: flex;
-  flex-direction: row;
-  /* flex-wrap: nowrap; */
-  align-items: flex-start;
-  justify-content: space-evenly;
-  background: #f2f2f2 0% 0% no-repeat padding-box;
-  padding: 50px;
-  padding-top: 20px;
-}
 
-.footer-item {
-  display: flex;
-  flex-direction: column;
-  /* flex-wrap: nowrap; */
-  align-items: center;
-  justify-content: center;
-  padding: 5px;
-}
+
 
 .img-and-title {
   display: flex;
   flex-direction: column;
 }
 
-.footer-img {
-  display: flex;
-  width: 150px;
-  height: auto;
-}
 
-.footer-title {
-  display: flex;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  font-size: 27px;
-  text-align: left;
-  letter-spacing: 0px;
-  color: #000000;
-  opacity: 1;
-  margin-top: 50px;
-  height: 80px;
-  width: 130px;
-}
 
-.footer-text {
-  display: flex;
-  font-family: 'Poppins', sans-serif;
-  text-align: center;
-  font-weight: 400;
-  font-size: 17px;
-  width: 350px;
-}
 
 .firstName2 {
   padding: 15px;
@@ -408,28 +326,15 @@
   opacity: 1;
 }
 @media (max-width: 1075px) {
-  .footer-container {
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-  }
+ 
   .img-and-title {
     display: flex;
     flex-direction: row;
     width: 300px;
     align-items: center;
   }
-  .footer-title {
-    border-top: 2px solid grey;
-    border-bottom: 2px solid grey;
-    margin-top: 0px;
-  }
-  .footer-text {
-    text-align: left;
-    width: 290px;
-    font-size: 15px;
-  }
+ 
+ 
 }
 
 @media screen and (max-width: 1155px) {
@@ -476,160 +381,31 @@
   }
 }
 
-.payment-info-container {
-  width: 100%;
-  display: flex;
 
-  justify-content: center;
-  text-align: center;
-  margin-top: 100px;
-  margin-bottom: 50px;
-}
 
-.step-item1 {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  flex-grow: 1;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  width: 500px;
-}
 
-.step-4 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  font-size: 15px;
-  width: 54px;
-  height: 25px;
-}
 
-.payment-info {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  font-size: 30px;
-  width: 400px;
-  height: 55px;
-}
 
-.payment-border {
-  width: 800px;
-  height: 300px;
-  background: #ffffff 0% 0% no-repeat padding-box;
-  border: 2px solid #b3b3b3;
-  border-radius: 19px;
-  opacity: 1;
-}
-.payPal {
-  width: 100%;
-  height: 60px;
-  border-bottom: 2px solid #b3b3b3;
-  left: 0;
-  border-top-right-radius: 17px;
-  border-top-left-radius: 17px;
-  background-color: #f2f2f2;
-  display: flex;
-  flex-direction: row;
-}
 
-.round3 {
-  padding: 20px;
-  width: 20px;
-  accent-color: black;
-}
 
-.round4 {
-  padding: 20px;
-  width: 20px;
-  accent-color: black;
-}
 
-.creditCard {
-  width: 100%;
-  height: 60px;
-  background-color: #f2f2f2;
-  border-bottom: 2px solid #b3b3b3;
-  left: 0;
-  display: flex;
-  flex-direction: row;
-}
 
-.payPal-img {
-  width: 114px;
-  height: 30px;
-  margin-top: 15px;
-  margin-left: 5px;
-}
 
-.payWith {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  padding: 15px 0px;
-}
-.payWithCreditCard {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  width: 200px;
-  margin-top: -25px;
-  margin-left: 5px;
-}
-.cards-container {
-  width: 570px;
-  height: 50px;
-  margin-left: 200px;
-  margin-top: -25px;
-  /* border: 1px solid black; */
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-.visa {
-  width: 45px;
-  height: 28px;
-  margin-right: 10px;
-}
 
-.afterPay {
-  width: 80px;
-  height: auto;
 
-  margin-right: 10px;
-  margin-top: -20px;
-}
 
-.name-card-namber-container {
-  width: 760px;
-  height: 70px;
-  /* border: 1px solid black; */
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-.security-container {
-  margin-top: 10px;
-  width: 760px;
-  height: 80px;
-  /* border: 1px solid black; */
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
 
-@media screen and (max-width: 394px) {
-  .three {
-    margin-top: -10px;
-    width: 49px;
-    height: 113px;
-    font-size: 80px;
-  }
-  .three-text {
-    margin-top: 15px;
 
-    font-size: 20px;
-    width: 173px;
-    height: 69px;
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
